@@ -1,9 +1,12 @@
+import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
+  const [candidate, setCandidate] = useState(false);
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Header setCandidate={setCandidate} candidate={!!candidate} />
     </div>
   );
 }
