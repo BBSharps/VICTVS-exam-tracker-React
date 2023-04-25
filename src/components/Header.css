@@ -1,8 +1,9 @@
 #Header{
-    background-color: rgb(138, 43, 226);
+    background-color:rgb(255, 0, 255);
     color: black;
    display: flex;
    flex-direction: column;
+   border-bottom: 5px double black;
 }
 .Header_h1{
     margin: 0px auto;

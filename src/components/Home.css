@@ -1,0 +1,30 @@
+.MobileWindow{
+    width: 320px;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.LogIn{
+    height: 180px;
+    width: 250px;
+    background-color: silver;
+    margin: 30px auto 0px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.LogIn_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;    
+}
+.LogIn_input input{
+    width: 177px;
+}
+.LogIn_button{
+    margin: 10px auto;
+}
