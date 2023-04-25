@@ -15,11 +15,12 @@ function App() {
         setCandidate={setCandidate}
         candidate={candidate.candidate_name === undefined}
       />
+      <div className="Background"></div>
       <main id="main">
         {candidate.candidate_name === undefined ? (
           <Home setCandidate={setCandidate} />
         ) : (
-          <Id />
+          <Id candidate={candidate} />
         )}
       </main>
     </div>

@@ -1,9 +1,13 @@
 #Header{
+    width: 100vw;
+    height: 40px;
     background-color:rgb(255, 0, 255);
     color: black;
    display: flex;
    flex-direction: column;
    border-bottom: 5px double black;
+   position: fixed;
+   top:0px
 }
 .Header_h1{
     margin: 0px auto;
