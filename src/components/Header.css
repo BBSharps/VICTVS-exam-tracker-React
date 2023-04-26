@@ -1,16 +1,23 @@
 #Header{
     width: 100vw;
-    height: 40px;
-    background-color:rgb(255, 0, 255);
+    height: 10vh;
+    background-color: #8A7D99;
     color: black;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    border-bottom: 5px double black;
    position: fixed;
-   top:0px
+   top:0px;
+   box-shadow: 0px 0px 2px 1px rgba(3, 3, 3, 0.5);
+   z-index: 1;
 }
 .Header_h1{
+    padding: 10px;
     margin: 0px auto;
+    color: #F5EEF1;
+    font-size: 6vh;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .Header_div{
     height: 20px;
@@ -18,8 +25,7 @@
     flex-direction: column;
 }
 .Header_button{
-    border: none;
-    padding: 2px;
-    align-self: flex-end;
-    background-color: rgb(198, 185, 228)
+    position: fixed;
+    top:2px;
+    right: 2px;
 }

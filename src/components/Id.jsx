@@ -7,7 +7,6 @@ function Id({ candidate }) {
   useEffect(() => {
     getExams(candidate.candidate_id, filterLocation, filterDate, filterOrder)
       .then((response) => {
-        console.log(response);
         setExams(response);
       })
       .catch((error) => {});
@@ -98,7 +97,6 @@ function Id({ candidate }) {
           ) : (
             <li className="Exams_list_li">No Exams</li>
           )}
-          <li className="Exams_list_li_fill"></li>
         </ul>
       </div>
       <div hidden={!clickedExam} className="Exams_data">

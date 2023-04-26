@@ -2,13 +2,19 @@
   margin:0px;
   padding: 0px;
   font-size: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Asap Condensed', sans-serif;
 }
 input {
   font-size: 14px;
+  background-color: #F5EEF1;
+  color: #370037;
 }
 #main{
-  margin-top: 40px;
-  height: 100vh; 
+  margin-top: 10vh;
+  height: 90vh; 
   display:flex;
   flex-direction: column;
  background-color: rgb(0, 0, 0, 0);
@@ -18,9 +24,22 @@ input {
   width: 100vw;
   position: fixed;
   bottom: 0px;
-  background: linear-gradient(360deg,rgb(255, 0, 255,0.1)0%,rgb(255, 0, 255) 100%);
+  background: linear-gradient(360deg,rgb(55, 0, 55,0.1)0%,rgb(55, 0, 55) 100%);
   z-index: -1;
 }
 select{
   font-size: 14px;
+  background-color: #F5EEF1;
+  color: #370037;
+}
+button{
+  background-color: #370037;
+  color: #F5EEF1;
+  border: none;
+  box-shadow: 0px 0px 2px 1px rgba(3, 3, 3, 0.5);
+  padding: 3px;
+border: 1px solid #86577D;
+}
+a{
+  color: #F5EEF1;
 }
