@@ -14,7 +14,7 @@ Id-/-Name
 3-/-	         Mateos  
 
 
-### project planing used:
+### project plan:
 https://trello.com/b/kKSeFpwM/victvs-exam-tracker
 
 planing_digram.png
