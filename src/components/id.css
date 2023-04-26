@@ -1,53 +1,58 @@
-.MobileWindow{
-    width: 310px;
-    height: 100vh;
-    margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 5px;
-}
 .Exams{
-    width: 310px;
+    width: 100vw;
     height: 100vh;
     margin: 0px auto;
     display:flex;
     flex-direction: row;
-   justify-content: space-between;
+  
 }
 .Exams_spacingBox{
-    width: 120px;
+    width: 200px;
 }
 .Exams_filter{
-    background-color: silver;
+    background-color: #8A7D99;
     display:flex;
     flex-direction: column;
     padding:20px 5px 5px 5px;
     width: 120px;
     height: 150px;
     position: fixed;
-    top: 40px;
-    left : 5vw;
+    top: 10vh;
+    left :0px;
+   z-index: 0;
+    border-bottom: 5px double black;
+    border-right: 5px double black;
+    box-shadow: 1px 2.5px 2px 1px rgba(3, 3, 3, 0.5);
 }
 .Exams_filter_button{
     padding: 2px;
     margin: 5px auto;
 }
 .Exams_list_ul{
-list-style: none;
-margin :10px;
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 170px;
+    overflow: revert;
+    max-width: none;
+    max-height: none;
+}
+.Exams_list{
+    width: 65vw;
 }
 .Exams_list_li{
        margin :5px;
        padding: 5px;
-       background-color: rgb(192, 192, 192);
+       background-color:#856678;
        border-radius: 5px;
        box-shadow: 0px 0px 2px 1px rgba(3, 3, 3, 0.5);
        height: 74px;
        width: 134px;
+       color: #F5EEF1;
 }
-.Exams_list_li_fill{
-    height: 170px;
-}
+
 .Exams_data{
     position:fixed;
     bottom:10px;
@@ -56,7 +61,14 @@ margin :10px;
     width: 88vw;
     height: 150px;
     padding: 1vw;
-    background-color: rgb(192, 192, 192);
+    background-color:#86577D;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 1px rgba(3, 3, 3, 0.5);
+    color: #F5EEF1;
+}
+@media screen and (max-height: 400px) {
+    .Exams_data{
+        width: 60vw;
+        left: 200px
+    }
 }

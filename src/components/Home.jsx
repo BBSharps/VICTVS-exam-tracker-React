@@ -11,7 +11,7 @@ function Home({ setCandidate, candidate_id }) {
       .catch((error) => {});
   });
 
-  const [id, setId] = useState("");
+  const [id, setId] = useState(0);
   const [name, setName] = useState("");
   const [candidates, setCandidates] = useState([]);
 
@@ -45,7 +45,7 @@ function Home({ setCandidate, candidate_id }) {
           type="submit"
           onClick={(e) => {
             e.preventDefault();
-            if (id < candidates.length - 1) {
+            if (id < candidates.length) {
               if (
                 Number(id) === candidates[id].candidate_id &&
                 name === candidates[id].candidate_name
